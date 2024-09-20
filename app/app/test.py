@@ -18,4 +18,3 @@ class CalcTests(SimpleTestCase):
     def test_subtract_numbers(self):
         res = calc.subtract(9, 1)
         self.assertEqual(res,  8)
-        
